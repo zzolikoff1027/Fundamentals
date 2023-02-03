@@ -29,12 +29,11 @@ extern void Pursue__ctor_m8FE73B27BC49CA1433B7D2A0D9E64CB40BD35EE9 (void);
 extern void Seek_getTargetPosition_m8E5C9AF2AB72329985B13916426D41829FC9C886 (void);
 extern void Seek_getSteering_m18950D2CEE71E285F6F84E94E6933D9720CDF52E (void);
 extern void Seek__ctor_m7CEB3A36776669F38DB58C4ACD81EDDDD576EE98 (void);
+extern void Wander_getTargetPosition_mE10A1D701F908F0CF795A8941857F060D5406441 (void);
+extern void Wander__ctor_mC3D1C5EB03A0FF0BB9A609A1E500C0371FBA75CE (void);
 extern void Separation_getSteering_mD8749038A445AE4F7342C7278B9DEC52C5A5FB9E (void);
 extern void Separation__ctor_m4EF3DE45F8139BE748AE0B4B6119AB26406F99F3 (void);
 extern void SteeringBehavior__ctor_m6AE609B68EE4371E49F6D06269AABC4CA4EFF475 (void);
-extern void Wander_getSteering_m837696901E5961C4B3990F56C0A968B59AD5E89B (void);
-extern void Wander_randomBinomial_m85C8BA4F007C9B03CF132B3B6A08E4E9D50D5309 (void);
-extern void Wander__ctor_mC3D1C5EB03A0FF0BB9A609A1E500C0371FBA75CE (void);
 extern void Facer_Start_mE0ED7E054D24A6DB022D0C7195D4D8121530C849 (void);
 extern void Facer_Update_mD9ED5530A569B2C56C0767D201197B7A7985C1F3 (void);
 extern void Facer__ctor_m750FE425EF84B65B01A1CE111DF85EC08C757F0B (void);
@@ -54,7 +53,7 @@ extern void Wanderer__ctor_mB8C2D73DA6A851324E0289B9F88CB05B9B181DC5 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_IsEditorOnly_m59E10A16B0BDEA496377805E39C3D90B1E2C4815 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_Get_mDAD527916A4779DB4ACAFEADC3BA7372671FA647 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes__ctor_mE2C680837D47039E3F06032AA8C63FEDB7E783A5 (void);
-static Il2CppMethodPointer s_methodPointers[43] = 
+static Il2CppMethodPointer s_methodPointers[42] = 
 {
 	Arriver_Start_mFB4DF9C53A79172F8D6AF7EA2E8DFE278673B063,
 	Arriver_Update_m91951ACE5DD18205E629D1734FDD09C93E2114CF,
@@ -73,13 +72,12 @@ static Il2CppMethodPointer s_methodPointers[43] =
 	Seek_getTargetPosition_m8E5C9AF2AB72329985B13916426D41829FC9C886,
 	Seek_getSteering_m18950D2CEE71E285F6F84E94E6933D9720CDF52E,
 	Seek__ctor_m7CEB3A36776669F38DB58C4ACD81EDDDD576EE98,
+	Wander_getTargetPosition_mE10A1D701F908F0CF795A8941857F060D5406441,
+	Wander__ctor_mC3D1C5EB03A0FF0BB9A609A1E500C0371FBA75CE,
 	Separation_getSteering_mD8749038A445AE4F7342C7278B9DEC52C5A5FB9E,
 	Separation__ctor_m4EF3DE45F8139BE748AE0B4B6119AB26406F99F3,
 	NULL,
 	SteeringBehavior__ctor_m6AE609B68EE4371E49F6D06269AABC4CA4EFF475,
-	Wander_getSteering_m837696901E5961C4B3990F56C0A968B59AD5E89B,
-	Wander_randomBinomial_m85C8BA4F007C9B03CF132B3B6A08E4E9D50D5309,
-	Wander__ctor_mC3D1C5EB03A0FF0BB9A609A1E500C0371FBA75CE,
 	Facer_Start_mE0ED7E054D24A6DB022D0C7195D4D8121530C849,
 	Facer_Update_mD9ED5530A569B2C56C0767D201197B7A7985C1F3,
 	Facer__ctor_m750FE425EF84B65B01A1CE111DF85EC08C757F0B,
@@ -100,7 +98,7 @@ static Il2CppMethodPointer s_methodPointers[43] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_Get_mDAD527916A4779DB4ACAFEADC3BA7372671FA647,
 	UnitySourceGeneratedAssemblyMonoScriptTypes__ctor_mE2C680837D47039E3F06032AA8C63FEDB7E783A5,
 };
-static const int32_t s_InvokerIndices[43] = 
+static const int32_t s_InvokerIndices[42] = 
 {
 	1073,
 	1073,
@@ -119,12 +117,12 @@ static const int32_t s_InvokerIndices[43] =
 	1071,
 	1046,
 	1073,
+	1071,
+	1073,
 	1046,
 	1073,
 	0,
 	1073,
-	1046,
-	1065,
 	1073,
 	1073,
 	1073,
@@ -141,16 +139,15 @@ static const int32_t s_InvokerIndices[43] =
 	1073,
 	1073,
 	1073,
-	1073,
-	2053,
-	2064,
+	2056,
+	2067,
 	1073,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	43,
+	42,
 	s_methodPointers,
 	0,
 	NULL,

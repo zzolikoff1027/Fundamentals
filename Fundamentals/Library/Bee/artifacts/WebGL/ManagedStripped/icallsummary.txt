@@ -90,7 +90,7 @@ UnityEngine.PlayerConnectionInternal::UnregisterInternal
 UnityEngine.QualitySettings::get_activeColorSpace
 UnityEngine.Quaternion::Internal_FromEulerRad_Injected
 UnityEngine.Quaternion::Internal_ToEulerRad_Injected
-UnityEngine.Random::RandomRangeInt
+UnityEngine.Random::GetRandomUnitCircle
 UnityEngine.Rendering.GraphicsSettings::get_lightsUseLinearIntensity
 UnityEngine.Rendering.ScriptableRenderContext::GetCameras_Internal_Injected
 UnityEngine.RenderTexture::GetDescriptor_Injected

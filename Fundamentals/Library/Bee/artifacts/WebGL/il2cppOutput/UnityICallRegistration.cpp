@@ -478,9 +478,9 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Random
 
-		//System.Int32 UnityEngine.Random::RandomRangeInt(System.Int32,System.Int32)
-		void Register_UnityEngine_Random_RandomRangeInt();
-		Register_UnityEngine_Random_RandomRangeInt();
+		//System.Void UnityEngine.Random::GetRandomUnitCircle(UnityEngine.Vector2&)
+		void Register_UnityEngine_Random_GetRandomUnitCircle();
+		Register_UnityEngine_Random_GetRandomUnitCircle();
 
 	//End Registrations for type : UnityEngine.Random
 

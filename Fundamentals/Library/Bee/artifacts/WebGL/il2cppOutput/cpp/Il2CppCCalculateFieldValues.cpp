@@ -10467,10 +10467,6 @@ struct ExecutionContextSwitcher_tC30FBBA37AF7939CED1F80BF8A63BA1DFD07D708_marsha
 	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___thread_3;
 };
 
-struct Face_t5C5DBF9CEE15220B8DA723C66F0932E413930E46  : public Align_tE336DD8D23B5623DB73E601C2AC72A7007719BF5
-{
-};
-
 struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_6;
@@ -11624,6 +11620,13 @@ struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_marshaled_com : publ
 	int32_t ___hasThreadAffinity_5;
 };
 
+struct Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90  : public Seek_tF7612564FE9A3735D08D0C149929C6FC5D1688E7
+{
+	float ___delay_4;
+	float ___elapsedTime_5;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___result_6;
+};
+
 struct WindowsConsoleDriver_t76D22BAFCE876AE37FF0600E1BC59F2647779982  : public RuntimeObject
 {
 	intptr_t ___inputHandle_0;
@@ -12626,17 +12629,6 @@ struct Variant_t27FFE32E30D266F01C4F6777F465F05F23D54301
 	};
 };
 
-struct Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90  : public Face_t5C5DBF9CEE15220B8DA723C66F0932E413930E46
-{
-	float ___wanderOffset_6;
-	float ___wanderRadius_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___center_8;
-	float ___wanderRate_9;
-	float ___wanderOrientation_10;
-	float ___targetOrientation_11;
-	float ___maxAcceleration_12;
-};
-
 struct WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E  : public RuntimeObject
 {
 	bool ___isLongReference_0;
@@ -13239,7 +13231,10 @@ struct Sperator_tFFC7E100A6C963C188A8805EA202341BB35AA0E2  : public Kinematic_tE
 
 struct Wanderer_tC8465D53951CAA09E6BF0D5363DC299DC1379377  : public Kinematic_tEE69C5FCB17249797D4FD1A74C0B67CB57EAC9AB
 {
-	Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90* ___myRotateType_11;
+	Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90* ___myMoveType_11;
+	Face_t5C5DBF9CEE15220B8DA723C66F0932E413930E46* ___mySeekRotateType_12;
+	LookWhereGoing_t878BE4B5BC92A1F694CC4E678561026D244955BC* ___myFleeRotateType_13;
+	bool ___flee_14;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -16849,12 +16844,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2061[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2062[4] = 
 {
 	static_cast<int32_t>(offsetof(Seek_tF7612564FE9A3735D08D0C149929C6FC5D1688E7, ___character_0)),static_cast<int32_t>(offsetof(Seek_tF7612564FE9A3735D08D0C149929C6FC5D1688E7, ___target_1)),static_cast<int32_t>(offsetof(Seek_tF7612564FE9A3735D08D0C149929C6FC5D1688E7, ___maxAcceleration_2)),static_cast<int32_t>(offsetof(Seek_tF7612564FE9A3735D08D0C149929C6FC5D1688E7, ___flee_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2063[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2063[3] = 
+{
+	static_cast<int32_t>(offsetof(Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90, ___delay_4)),static_cast<int32_t>(offsetof(Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90, ___elapsedTime_5)),static_cast<int32_t>(offsetof(Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90, ___result_6)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2064[5] = 
 {
 	static_cast<int32_t>(offsetof(Separation_t2BAC9187139680957A3424EE12DB9BA72557F699, ___character_0)),static_cast<int32_t>(offsetof(Separation_t2BAC9187139680957A3424EE12DB9BA72557F699, ___maxAcceleration_1)),static_cast<int32_t>(offsetof(Separation_t2BAC9187139680957A3424EE12DB9BA72557F699, ___targets_2)),static_cast<int32_t>(offsetof(Separation_t2BAC9187139680957A3424EE12DB9BA72557F699, ___threshold_3)),static_cast<int32_t>(offsetof(Separation_t2BAC9187139680957A3424EE12DB9BA72557F699, ___decayCoefficient_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2065[7] = 
-{
-	static_cast<int32_t>(offsetof(Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90, ___wanderOffset_6)),static_cast<int32_t>(offsetof(Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90, ___wanderRadius_7)),static_cast<int32_t>(offsetof(Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90, ___center_8)),static_cast<int32_t>(offsetof(Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90, ___wanderRate_9)),static_cast<int32_t>(offsetof(Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90, ___wanderOrientation_10)),static_cast<int32_t>(offsetof(Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90, ___targetOrientation_11)),static_cast<int32_t>(offsetof(Wander_t16D8853FE159F6274D7E938344FCF92D24D69E90, ___maxAcceleration_12)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2066[1] = 
 {
 	static_cast<int32_t>(offsetof(Facer_tD01AA4B3E22F23D4802613026EED272D908D9BF5, ___myRotateType_11)),};
@@ -16870,9 +16865,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2069[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2070[2] = 
 {
 	static_cast<int32_t>(offsetof(SteeringOutput_t40FB2360D71385A9E1473F8D95BC6980673C9CED, ___linear_0)),static_cast<int32_t>(offsetof(SteeringOutput_t40FB2360D71385A9E1473F8D95BC6980673C9CED, ___angular_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2071[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2071[4] = 
 {
-	static_cast<int32_t>(offsetof(Wanderer_tC8465D53951CAA09E6BF0D5363DC299DC1379377, ___myRotateType_11)),};
+	static_cast<int32_t>(offsetof(Wanderer_tC8465D53951CAA09E6BF0D5363DC299DC1379377, ___myMoveType_11)),static_cast<int32_t>(offsetof(Wanderer_tC8465D53951CAA09E6BF0D5363DC299DC1379377, ___mySeekRotateType_12)),static_cast<int32_t>(offsetof(Wanderer_tC8465D53951CAA09E6BF0D5363DC299DC1379377, ___myFleeRotateType_13)),static_cast<int32_t>(offsetof(Wanderer_tC8465D53951CAA09E6BF0D5363DC299DC1379377, ___flee_14)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2072[3] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptInfo_tB6E56480CE09067429D885894639F57C50C0D101, ___nameSpace_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptInfo_tB6E56480CE09067429D885894639F57C50C0D101, ___className_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptInfo_tB6E56480CE09067429D885894639F57C50C0D101, ___isPartial_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),};

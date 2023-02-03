@@ -54,9 +54,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6346}
     - Class: 114
-      Script: {instanceID: 8060}
+      Script: {instanceID: 8058}
     - Class: 114
-      Script: {instanceID: 8142}
+      Script: {instanceID: 8140}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -168,7 +168,7 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreakMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 769904376c7f8cf829e4cb95ae33fa09
+      Hash: 8aab9d6eb423802406e77bd447630b77
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Wanderer
@@ -931,5 +931,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/zacsz/OneDrive/Desktop/Projects/Fundamentals/Fundamentals
-    Build
+  playerPath: C:/Users/zacsz/OneDrive/Desktop/Projects/Fundamentals/Fundamentals_Build

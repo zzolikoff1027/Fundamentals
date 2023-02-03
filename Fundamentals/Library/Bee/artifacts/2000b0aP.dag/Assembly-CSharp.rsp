@@ -307,7 +307,6 @@
 "Assets/Scripts/Behaviors/Seek.cs"
 "Assets/Scripts/Behaviors/Separation.cs"
 "Assets/Scripts/Behaviors/SteeringBehavior.cs"
-"Assets/Scripts/Behaviors/Wander.cs"
 "Assets/Scripts/Facer.cs"
 "Assets/Scripts/Kinematic.cs"
 "Assets/Scripts/Seeker.cs"
