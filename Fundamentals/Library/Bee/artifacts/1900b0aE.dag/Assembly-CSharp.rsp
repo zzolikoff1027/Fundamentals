@@ -375,10 +375,13 @@
 "Assets/Scripts/Behaviors/Seek.cs"
 "Assets/Scripts/Behaviors/Separation.cs"
 "Assets/Scripts/Behaviors/SteeringBehavior.cs"
+"Assets/Scripts/Behaviors/Wander.cs"
+"Assets/Scripts/Facer.cs"
 "Assets/Scripts/Kinematic.cs"
 "Assets/Scripts/Seeker.cs"
 "Assets/Scripts/Sperator.cs"
 "Assets/Scripts/SteeringOutput.cs"
+"Assets/Scripts/Wanderer.cs"
 -langversion:9.0
 
 /deterministic
